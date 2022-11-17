@@ -35,3 +35,22 @@
     color: var(--white);
     border-color: var(--primary);
 }
+
+.arrow{
+    display: inline-block;
+
+    margin-left: 10px;
+    transition: .35s;
+}
+
+.down{
+    transform: rotate(90deg);
+}
+
+
+.primary svg{
+    fill: var(--white);
+}
+.primary svg ,.ghost:hover svg{
+    fill: var(--white);
+}

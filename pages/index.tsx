@@ -5,7 +5,9 @@ export default function Home(): JSX.Element {
     <>
       <Htag tag="h1">Текст</Htag>
       <Button appearance={"primary"}>Primary</Button>
-      <Button appearance={"ghost"}>Primary</Button>
+      <Button appearance={"ghost"} arrow={"right"}>
+        Primary
+      </Button>
     </>
   );
 }
