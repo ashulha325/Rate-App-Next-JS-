@@ -16,6 +16,7 @@ a {
 
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 :root {
@@ -31,3 +32,4 @@ a {
   --greenLight: #c8f8e4;
   --font-family: "Noto Sans", sans-serif;
 }
+
