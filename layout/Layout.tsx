@@ -5,12 +5,13 @@ import { Header } from "./Header/Header";
 import { Footer } from "./Footer/Footer";
 import { Sidebar } from "./Sidebar/Sidebar";
 import { FC } from "react";
+
 const Layout = ({ children }: LayoutProps): JSX.Element => {
   return (
     <div className={styles.wrapper}>
       <Header className={styles.header} />
+      <Sidebar className={styles.sidebar} />
       <div className={styles.body}>
-        <Sidebar className={styles.sidebar} />
         <div>{children}</div>
       </div>
       <Footer className={styles.footer} />
