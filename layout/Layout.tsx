@@ -7,14 +7,14 @@ import { Sidebar } from "./Sidebar/Sidebar";
 import { FC } from "react";
 const Layout = ({ children }: LayoutProps): JSX.Element => {
   return (
-    <>
-      <Header />
-      <div>
-        <Sidebar />
+    <div className={styles.wrapper}>
+      <Header className={styles.header} />
+      <div className={styles.body}>
+        <Sidebar className={styles.sidebar} />
         <div>{children}</div>
       </div>
-      <Footer />
-    </>
+      <Footer className={styles.footer} />
+    </div>
   );
 };
 
